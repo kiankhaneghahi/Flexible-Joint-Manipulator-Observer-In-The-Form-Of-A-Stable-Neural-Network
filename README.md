@@ -1,4 +1,4 @@
-# Flexible Joint Manipulator Observer In The Form Of A Stable Neural Network
+# A Stable Neural Network Observer for Flexible Joint Manipulators
 
 In this project, an observer in the form of a stable neural network is proposed for any nonlinear MIMO system. As a result of experience, this observer utilizes a nonlinear in parameter neural network (NLPNN) which unlike LPNN, supports systems with higher degree of nonlinearity with no pre-knowledge of its dynamics. The learning rule for this neural network is based on the back-propagation method with a small modification. In addition, in order to guarantee the robustness of the observer, an e-modification term is added. Also, it is noted that there are no hard constraints like SPR on this method. Subsequently, the stability of this neural network observer is guaranteed by Lyapunov's direct method. At the end, the simulation results for a flexible-joint manipulator with this observer is demonstrated.
 
